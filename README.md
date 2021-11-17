@@ -20,7 +20,8 @@
    async def 안녕(ctx):
        await ctx.send("하잉 ~")
     ```
-   * 채팅 청소 : ~지워 (지울메세지수)
+ * 채팅 청소 
+   * ~지워 (지울메세지수)
     ```python
    @bot.command(name="지워", pass_context=True)
    async def _clear(ctx, *, amount=5):
